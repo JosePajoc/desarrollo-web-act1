@@ -1,0 +1,57 @@
+body{
+    background-color: #5185f5;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+}
+
+#misDatos{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#encabezado{
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+th{
+    background-color: darkred;
+}
+
+.opcionesMenu{
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 8px;
+    
+}
+
+#frase{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    border-radius: 50%;
+}
+
+td{
+    width: 150px;
+}
