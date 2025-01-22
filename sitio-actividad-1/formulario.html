@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes y videos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="encabezado">
+        <p>
+            Universidad de San Carlos de Guatemala - USAC<br>
+            Escuela de Formación de Profesores de Enseñanza media - EFPEM<br>
+            Diseño web
+        </p>
+        <hr>
+    </div>
+    <ul id="menu">
+        <li><a class="opcionesMenu" href="index.html"> Inicio</a></li>
+        <li><a class="opcionesMenu" href="listasTablas.html">Listas y tablas</a></li>
+        <li><a class="opcionesMenu" href="imagenesVideos.html">Imágenes y videos</a></li>
+        <li><a class="opcionesMenu" href="formulario.html">Formulario</a></li>
+    </ul>
+    <main>
+        <h2>FORMULARIO</h2>
+        <form>
+            <label>Ingrese nombre: <input type="text"> </label> <br><br>
+            <label>Ingrese nueva contraseña: <input type="password"> </label> <br><br>
+            <label>Seleccione género: </label>
+            <label><input type="radio" name="genero">Masculino</label>
+            <label><input type="radio" name="genero">Femenino</label> <br><br>
+            <label>Seleccione jornada: </label>
+            <label><input type="checkbox" name="jornada">Masculino</label>
+            <label><input type="checkbox" name="jornada">Femenino</label><br><br>
+            <label>Seleccione especialidad: </label>
+            <select name="especialidad">
+                <option value="compu">Computación e Informática</option>
+                <option value="lengua">Lengua y Literatura</option>
+                <option value="fisica">Física y Matemática</option>
+            </select> <br><br>
+            <label>Seleccionar fotografía: </label>
+            <input type="file" accept=".jpg, .jpeg, .png"> <br><br>
+
+
+            <button type="button">Registrar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+
+    </main>
+    <footer>
+        <hr>
+        <p>"Id y Enseñad a Todos"</p>
+    </footer>
+</body>
+
+</html>
